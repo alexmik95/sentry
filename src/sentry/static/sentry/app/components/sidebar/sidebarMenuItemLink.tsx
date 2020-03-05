@@ -4,6 +4,8 @@ import Link from 'app/components/links/link';
 import ExternalLink from 'app/components/links/externalLink';
 
 export type SidebarMenuItemLinkProps = {
+  // SidebarMenuItemLink content (accepted via string or components / DOM nodes)
+  children: React.ReactNode;
   /**
    * Use this prop if button is a react-router link
    */
